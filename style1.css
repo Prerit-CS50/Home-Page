@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cbebd0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #000001;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.horizontal-menu {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.horizontal-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.horizontal-menu ul li {
+    margin: 0 15px;
+}
+
+.horizontal-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.horizontal-menu ul li a:hover {
+    background-color: #357ab8;
+}
+
+section.content {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h2 {
+    color: #000000;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content ol {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.content ol li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 10px solid #1d1985;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content img {
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 7px solid #171780;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #171780;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    background-color: #eee9c5;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e4c4ed;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+tfoot {
+    background-color: #4a90e2;
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
